@@ -6,14 +6,10 @@ package frc.robot;
 
 import com.revrobotics.REVPhysicsSim;
 
-import edu.wpi.first.wpilibj2.command.Command;
-import edu.wpi.first.wpilibj2.command.Commands;
-import edu.wpi.first.wpilibj2.command.button.CommandXboxController;
-import frc.robot.commands.DriveCommand;
-import frc.robot.commands.WheelStop;
-import frc.robot.commands.WheelSpin;
-import frc.robot.subsystems.Drivetrain;
-import frc.robot.subsystems.Wheel;
+import edu.wpi.first.wpilibj2.command.*;
+import edu.wpi.first.wpilibj2.command.button.*;
+import frc.robot.commands.*;
+import frc.robot.subsystems.*;
 
 public class RobotContainer {
 
